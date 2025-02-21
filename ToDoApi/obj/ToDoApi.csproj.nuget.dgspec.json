@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Joshua Benson\\source\\repos\\API\\TodoApi\\ToDoApi.csproj": {}
+    "C:\\Users\\Joshua Benson\\source\\repos\\API\\ToDoApi\\ToDoApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Joshua Benson\\source\\repos\\API\\TodoApi\\ToDoApi.csproj": {
+    "C:\\Users\\Joshua Benson\\source\\repos\\API\\ToDoApi\\ToDoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Joshua Benson\\source\\repos\\API\\TodoApi\\ToDoApi.csproj",
+        "projectUniqueName": "C:\\Users\\Joshua Benson\\source\\repos\\API\\ToDoApi\\ToDoApi.csproj",
         "projectName": "ToDoApi",
-        "projectPath": "C:\\Users\\Joshua Benson\\source\\repos\\API\\TodoApi\\ToDoApi.csproj",
+        "projectPath": "C:\\Users\\Joshua Benson\\source\\repos\\API\\ToDoApi\\ToDoApi.csproj",
         "packagesPath": "C:\\Users\\Joshua Benson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Joshua Benson\\source\\repos\\API\\TodoApi\\obj\\",
+        "outputPath": "C:\\Users\\Joshua Benson\\source\\repos\\API\\ToDoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Joshua Benson\\AppData\\Roaming\\NuGet\\NuGet.Config"
