@@ -1,0 +1,19 @@
+meta {
+  name: DeleteStockFromPortfolio
+  type: http
+  seq: 6
+}
+
+delete {
+  url: http://localhost:5054/api/portfolio?symbol=AMZN
+  body: none
+  auth: bearer
+}
+
+params:query {
+  symbol: AMZN
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpvZUBnbWFpbC5jb20iLCJnaXZlbl9uYW1lIjoiam9lQmxvdyIsIm5iZiI6MTc0MDQyNTc1NSwiZXhwIjoxNzQxMDMwNTU1LCJpYXQiOjE3NDA0MjU3NTUsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6NTA1NCIsImF1ZCI6Imh0dHA6Ly9sb2NhbGhvc3Q6NTA1NCJ9.ySVSGjf9MFNXR-xEPOmSItEpLajpdvQfyWmFdXG53_K4oRalH5xRU-hokjYFEb4ne2RKwaBtBG3Mj_QpiiQSYQ
+}

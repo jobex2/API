@@ -1,0 +1,26 @@
+meta {
+  name: AddCommentToStock
+  type: http
+  seq: 7
+}
+
+post {
+  url: http://localhost:5054/api/comment?stockId=2
+  body: json
+  auth: bearer
+}
+
+params:query {
+  stockId: 2
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IkphbmVAZ21haWwuY29tIiwiZ2l2ZW5fbmFtZSI6IkphbmVEb2UiLCJuYmYiOjE3NDA0MzM3NDcsImV4cCI6MTc0MTAzODU0NywiaWF0IjoxNzQwNDMzNzQ3LCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjUwNTQiLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjUwNTQifQ._vR1Eyl3y6plWuXe12YFC8oI2moUsKrsf1ZOxcq1cAefIUhfcDHUK5hOEdOZKIsUC1At1kWzXN4HFmCYfytmaw
+}
+
+body:json {
+  {
+    "title": "string",
+    "content": "string"
+  }
+}

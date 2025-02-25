@@ -1,0 +1,24 @@
+meta {
+  name: AllStocks
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://localhost:5054/api/stock?Symbol&ComapnyName&SortBy=Symbol&IsDescending=false&PageNumber=1&PageSize=20
+  body: json
+  auth: bearer
+}
+
+params:query {
+  Symbol: 
+  ComapnyName: 
+  SortBy: Symbol
+  IsDescending: false
+  PageNumber: 1
+  PageSize: 20
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImludmVzdG9yMkBnbWFpbC5jb20iLCJnaXZlbl9uYW1lIjoiaW52ZXN0b3IyIiwibmJmIjoxNzQwNDIwODUzLCJleHAiOjE3NDEwMjU2NTMsImlhdCI6MTc0MDQyMDg1MywiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MDU0IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo1MDU0In0.hnxwNtdjAW_G_PU12r5u_QB6WFFdoBpY2MvDtAPYE8OOQCQRIpfrEJ4Lh0__GSHbZipZo9cpJuMJ7bFwWBVlMQ
+}
